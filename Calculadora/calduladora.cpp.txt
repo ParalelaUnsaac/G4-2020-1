@@ -1,0 +1,234 @@
+/*
+.......................................................................
+. Calcula.cpp                                                         .
+.......................................................................
+.PROGRAMADOR : MIGUEL ANGEL SANCHEZ RUBIO                             .
+.......................................................................
+.REALIZADO : 23/02/2002                                               .
+.......................................................................
+.DESCRIPCION :                                                        .
+.......................................................................
+.Este programa Es una calculadora realiza las diferentes operaciones  .
+.                                                                     .
+.			  Suma, Resta, Multiplicacion                                .
+.			  Division y Raiz Cuadrada                                   .
+																							 .
+.y arroja resultados exactos en las diferentes operaciones            .
+.......................................................................
+.                        ! VIVA MEXICO CABRONES ¡                     . 
+.                          100 % MEXICAN PEOPLE                       .
+.......................................................................
+*/
+ 
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <math.h>
+ 
+ 
+ 
+ 
+int main()
+	 {
+	double a, b, resultado;
+	int Opcion;
+ 
+ 
+	double Suma (double , double );
+	double Resta (double , double );
+	double Multiplicacion (double , double );
+	double Division (double , double );
+	double Raiz_cuadrada (double );
+	void exit();
+	 do
+	 {
+	 clrscr();
+	gotoxy(27,2);
+	printf("CALCULADORA << VERSION 1.0 >>");
+	gotoxy(27,3);
+	printf("*****************************");
+	gotoxy(27,5);
+	printf(" 1.- SUMA");
+	gotoxy(27,7);
+	printf(" 2.- RESTA");
+	gotoxy(27,9);
+	printf(" 3.- MULTIPLICACION");
+	gotoxy(27,11);
+	printf(" 4.- DIVISION ");
+	gotoxy(27,13);
+	printf(" 5.- RAIZ CUADRADA");
+	gotoxy(27,15);
+	printf(" 6.- SALIR DEL PROGRAMA ");
+	gotoxy(27,18);
+	printf(" ELIJE UNA OPCION :");
+	scanf("%d", &Opcion);
+ 
+	switch (Opcion)
+	{
+		case 1:
+			resultado = Suma (a, b);
+		break;
+ 
+		case 2:
+			resultado = Resta (a, b);
+		break;
+ 
+ 
+		case 3:
+			resultado = Multiplicacion (a, b);
+		break;
+ 
+ 
+		case 4:
+			resultado = Division (a, b);
+		 break;
+ 
+		 case 5:
+			resultado = Raiz_cuadrada (a);
+	break;
+	case 6:
+	exit();
+	break;
+	default:
+	clrscr();
+	gotoxy(31,10);
+	printf("LA OPCION NO ES VALIDA ");
+	gotoxy(25,12);
+	printf(" SELECCIONAR NUEVAMENTE LA OPCION ");
+	getch();
+	break;
+}
+ 
+  }while(Opcion != 6);
+return 0;
+}
+ 
+double Suma (double a, double b)
+{
+	  double c;
+ 
+	  clrscr();
+	  gotoxy(24,5);
+	  printf("****** SUMA DE 2 NUMEROS ******");
+	  gotoxy(24,7);
+	  printf(" INTRODUCE UN NUMERO   : ");
+	  scanf ("%lf", &a);
+	  gotoxy(24,9);
+	  printf(" INTRODUCE OTRO NUMERO : ");
+	  scanf ("%lf", &b);
+	  c = a + b;
+ 
+	  gotoxy(24,12);
+	  printf("********   RESULTADOS   *******");
+	  gotoxy(24,14);
+	  printf(" EL RESULTADO ES : %lf", c);
+  getch();
+ 
+	  return (c); //así asignamos a la variable Suma, el valor de c=a+b
+}
+ 
+double Resta (double a, double b)
+{
+	 double c;
+ 
+	 clrscr();
+	 gotoxy(24,5);
+	 printf("****** RESTA ******");
+	 gotoxy(24,7);
+	 printf("INTRODUCE UN NUMERO   : ");
+	 scanf("%lf", &a);
+	 gotoxy(24,9);
+	 printf("INTRODUCE OTRO NUMERO : ");
+	 scanf("%lf", &b);
+	 c = (a-b);
+  gotoxy(24,12);
+  printf("***** RESULTADOS*****");
+  gotoxy(24,14);
+  printf(" EL RESULTADO ES : %lf",c);
+  getch();
+ 
+	 return (c);
+}
+ 
+double Multiplicacion (double a, double b)
+{
+	 double c;
+ 
+	 clrscr();
+	 gotoxy(24,5);
+	 printf("****** MULTIPLICACION ******");
+	 gotoxy(24,7);
+	 printf("INTRODUCE UN NUMERO   : ");
+	 scanf("%lf", &a);
+	 gotoxy(24,9);
+	 printf("INTRODUCE OTRO NUMERO : ");
+	 scanf("%lf", &b);
+	 c = a * b;
+ 
+  gotoxy(24,12);
+  printf("***** RESULTADOS*****");
+  gotoxy(24,14);
+  printf(" EL RESULTADO ES : %lf", c);
+  getch();
+ 
+	 return (c);
+}
+ 
+double Division (double a, double b)
+{
+	 double c;
+ 
+	 clrscr();
+	 gotoxy(24,5);
+	 printf("****** DIVISION ******");
+	 gotoxy(24,7);
+	 printf("INTRODUCE UN NUMERO   :");
+	 scanf("%lf", &a);
+	 gotoxy(24,9);
+	 printf("INTRODUCE OTRO NUMERO :");
+	 scanf("%lf", &b);
+	 c = a / b;
+ 
+  gotoxy(24,12);
+  printf("***** RESULTADOS*****");
+  gotoxy(24,14);
+  printf(" EL RESULTADO ES : %lf",c);
+  getch();
+ 
+	 return (c);
+}
+ 
+double Raiz_cuadrada (double a)
+{
+	 double c;
+ 
+	 clrscr();
+	 gotoxy(24,5);
+	 printf("****** RAIZ CUADRADA ******");
+	 gotoxy(24,7);
+	 printf("INTRODUCE EL NUMERO  : ");
+	 scanf ("%lf", &a);
+	 c = sqrt (a);
+ 
+  gotoxy(24,12);
+  printf("***** RESULTADOS*****");
+  gotoxy(24,14);
+  printf(" EL RESULTADO ES : %lf", c);
+  getch();
+ 
+	 return (c);
+}
+ 
+void exit()
+{
+clrscr();
+gotoxy(15,10);
+	printf(" PROGRAMA REALIZADO POR MIGUEL ANGEL SANCHEZ RUBIO ");
+	gotoxy(11,12);
+	printf(" TE GUSTO PUEDES ESCRIBIRME A MI E-MAIL elmigue4@hotmail.com");
+	gotoxy(10,14);
+	printf(" SE ACEPTAN TODO TIPO DE COMENTARIOS (quejas,felicitaciones ,etc..)");
+	gotoxy(18,16);
+	printf("               BYE BYE                                        ");
+	getch();
+}

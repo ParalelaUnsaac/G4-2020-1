@@ -1,0 +1,2 @@
+07Oct- creacion de proyeto en GitHub
+14 Oct - 3/5. Si tienen problema, no hay documentacion. CUDApy
