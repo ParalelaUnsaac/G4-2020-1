@@ -1,0 +1,111 @@
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace suma_y_multi_matrices
+{
+    class Program
+    {
+        public static int[,] leer(int fila, int columna)
+        {
+            //definimos la matriz
+            int[,] matriz = new int[fila, columna];
+            Console.WriteLine("");
+            for (int k = 0; k < fila; k++)
+            {
+                for (int i = 0; i < columna; i++)
+                {
+                    Console.Write("UBICACION [{0},{1}] = ", k, i);
+                    matriz[k, i] = int.Parse(Console.ReadLine());
+                }
+            }
+            return matriz;
+        }
+        public static void suma(int[,] B,int[,] C,int a,int b)
+        {
+            int[,] G = new int[a, b];
+            //se realiza la suma
+            for(int k=0;k<a;k++)
+            {
+                for(int i=0;i<b;i++)
+                {
+                    G[k, i] = B[k, i] + C[k, i];
+                }
+            }
+            //mostramos los elementos de la suma
+            Console.WriteLine("");
+            Console.WriteLine(" SUMA DE MATRICES ");
+            Console.WriteLine("");
+            for (int k = 0; k < a; k++)
+            {
+                for (int i = 0; i < b; i++)
+                {
+                    Console.WriteLine("UBICACION [{0},{1}] = {2}", k, i, G[k, i]);
+                }
+            }
+        }
+        public static void multiplicacion(int[,] A,int[,] B,int a, int b,int w)
+        {
+            int[,] H = new int[a, b];
+            for(int k=0;k<a;k++)
+            {
+                for(int i=0;i<b;i++)
+                {
+                    H[k, i] = 0;
+                    for(int j=0;j<w;j++)
+                    {
+                        H[k, i] = A[k, j] * B[j, i] + H[k, i];
+                    }
+                }
+            }
+            Console.WriteLine("");
+            Console.WriteLine(" MULTIPLICACION DE MATRICES ");
+            Console.WriteLine("");
+            for (int k = 0; k < a; k++)
+            {
+                for (int i = 0; i < b; i++)
+                {
+                    Console.WriteLine("UBICACION [{0},{1}] = {2}", k, i, H[k, i]);
+                }
+            }
+        }
+        static void Main(string[] args)
+        {
+            int fila1, columna1;
+            int fila2, columna2;
+            int[,] D;
+            int[,] Q;
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine(" MI MATRIZ ");
+            Console.WriteLine("");
+            Console.WriteLine("*** MATRIZ N° 1 ***");
+            Console.Write("digite el numero de filas : ");
+            fila1 = int.Parse(Console.ReadLine());
+            Console.Write("digite el numero de columnas : ");
+            columna1 = int.Parse(Console.ReadLine());
+            D = leer(fila1, columna1);
+            Console.WriteLine("");
+            Console.WriteLine("*** MATRIZ N° 2 ***");
+            Console.Write("digite el numero de filas : ");
+            fila2 = int.Parse(Console.ReadLine());
+            Console.Write("digite el numero de columnas : ");
+            columna2 = int.Parse(Console.ReadLine());
+            Q=leer(fila2,columna2);
+            if((fila1!=columna2) || (columna1!=fila2))
+            {
+                Console.WriteLine("");
+                Console.WriteLine("NO SE PUEDE REALIZAR LA SUMA ");
+            }
+            else
+            {
+                suma(D, Q, fila1, columna1);
+            }
+            //suma(D, Q, fila, columna);
+            //multiplicamos la matriz
+            multiplicacion(D, Q, fila1, columna2,columna1);
+            Console.ReadKey();
+        }
+    }
+}
