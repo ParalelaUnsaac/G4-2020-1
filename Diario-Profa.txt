@@ -1,0 +1,1 @@
+21 Oct : Github colaboran. Readme falta mejorar. mingw c compiler. OPENmp. Explicaron problema, tienen codigo que mide eficiencia de la paralelización. No tienen más documentación. Ejm, el uso de las clausulas de ambito para el problema.
