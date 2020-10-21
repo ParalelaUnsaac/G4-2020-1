@@ -1,0 +1,45 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Burbuja
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n = 0, m = 0;
+            int[] numero;
+            Console.WriteLine("escribir los numeros :");
+            n = int.Parse(Console.ReadLine());
+            numero = new int[n];
+
+            for(int i = 0; i< n; i++)
+            {
+                Console.Write("escribe el numero [{0}]:", i);
+                numero[i]=int.Parse(Console.ReadLine());
+            }
+            for(int j = 0; j< n; j++)
+            {
+                for(int k = 0; k< n; k++)
+                {
+                    if (numero[j] < numero[k])
+                    {
+                        m = numero[j];
+                        numero[j] = numero[k];
+                        numero[k] = m;
+                    }
+                }
+            }
+            for (int z = 0; z < n; z++)
+            {
+                Console.WriteLine("{0} = {1}", z+1, numero[m]);
+
+                
+            }
+            Console.ReadKey();
+        }
+    }
+}
