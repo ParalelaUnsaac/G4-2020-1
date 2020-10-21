@@ -1,4 +1,0 @@
-holaa soy eduardo
-https://developer.nvidia.com/pycuda
-
-https://github.com/oulgen/CudaPy
