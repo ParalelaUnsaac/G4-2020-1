@@ -8,15 +8,15 @@
 - **Facultad:** Facultad de ingenieria electrica, electronica, informatica y mecanica
 - **Escuela Profesional:** Ingenieria Informatica y de Sistemas
 
-#### Docente:
+#### Docente:👩‍🏫
 - **Quintanilla Portugal Roxana Lisette** - _Docente_ - [Concytec](http://directorio.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=40930).
 
-#### Trabajo:
+#### Trabajo:📌
 
 - Documentacion y entendimiento de un programa paralelizable.
 - Utilizacion del lenguaje de programacion C, para luego ejecutarlo en el google colaboratory
 
-#### Integrantes :
+#### Integrantes :👩‍💻👨‍💻
 
 - **Huancara Ccolqque Alex Helder** - _GitHub Account_ - [AlexHelder-Tizer](https://github.com/AlexHelder-Tizer)
 - **Huillca Herrera Victor Pool** - _GitHub Account_ - [VictorPoolHuillcaHerrera](https://github.com/VictorPoolHuillcaHerrera)
@@ -31,14 +31,14 @@
 
 .ggg
 
-### Construido con... 
+### Construido con... 💻🖱
 
 - Lenguaje: [Dev-C++](https://bloodshed-dev-c.softonic.com/)
 - Servicio Cloud: [Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb)
 - Diagrama de flujo: [Visual Paradigm](https://www.visual-paradigm.com/)
 - Editor: [Visual Studio CodeH](https://code.visualstudio.com/)
 
-## Codificacion del programa 
+## Codificacion del programa 📂
 # Conpilador: MINGW GNU
 
 The GNU General Public License is a free, copyleft license for software and other kinds of works.
