@@ -1,6 +1,21 @@
-# G4-2020-1
-# Algoritmos de ordenacion paralelos
-# Lenguaje de programacion: C++
+# G4-2020-1 (ALGORITMOS PARALELOS Y DISTRIBUIDOS)
+# Datos Academicos
+Institucion : Universidad Nacional de San Antonio Abad del Cusco
+Facultad    : Facultad de ingenieria electrica , electronica, informatica y mecanica
+Escuela profesional: Ingenieria Informatica y de Sistemas
+# Docente
+Quintanilla Portugal Roxana Lisette
+# Proyecto
+. Documentacion y entendimiento de un programa paralelizable
+. Utilizacion del lenguaje de programacion C, para luego ejecutarlo en el google colaboratory
+# Integrantes 
+. Huancara Ccolqque Alex Helder
+. Huillca Herrera Victor Pool
+. Inca Cruz Carlos Eduardo 
+. Quispe Palomino Luiyi Antony
+. Tintaya Taco Yurema Lisbet
+. Ugarte Castillo Briggitte Leonor
+# Lenguaje de programacion: C
 # Conpilador: MINGW GNU
 
 The GNU General Public License is a free, copyleft license for software and other kinds of works.
