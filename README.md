@@ -9,14 +9,21 @@
 Quintanilla Portugal Roxana Lisette
 # Proyecto
 . Documentacion y entendimiento de un programa paralelizable
+
 . Utilizacion del lenguaje de programacion C, para luego ejecutarlo en el google colaboratory
 # Integrantes 
 . Huancara Ccolqque Alex Helder
+
 . Huillca Herrera Victor Pool
+
 . Inca Cruz Carlos Eduardo 
+
 . Quispe Palomino Luiyi Antony
+
 . Tintaya Taco Yurema Lisbet
+
 . Ugarte Castillo Briggitte Leonor
+
 # Lenguaje de programacion: C
 # Conpilador: MINGW GNU
 
