@@ -36,7 +36,7 @@
 - Lenguaje: [Dev-C++](https://bloodshed-dev-c.softonic.com/)
 - Servicio Cloud: [Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb)
 - Diagrama de flujo: [Visual Paradigm](https://www.visual-paradigm.com/)
-- Editor: [Visual Studio Code](https://code.visualstudio.com/)
+- Editor: [Visual Studio CodeH](https://code.visualstudio.com/)
 
 ## Codificacion del programa 
 # Conpilador: MINGW GNU
