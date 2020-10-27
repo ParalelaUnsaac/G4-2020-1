@@ -2,7 +2,7 @@
 
 ---
 
-### Datos Academicos 
+### Datos Academicos 📚📓
 
 - **Institucion:** Universidad Nacional de San Antonio Abad del Cusco
 - **Facultad:** Facultad de ingenieria electrica, electronica, informatica y mecanica
