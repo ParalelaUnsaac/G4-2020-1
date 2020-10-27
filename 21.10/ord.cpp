@@ -9,9 +9,9 @@
 
 /*
 Usar mingw para compilar el archivo
-cd C:\Users\ASUS\Documents\GitHub\G4-2020-1
+cd C:\Users\ASUS\Documents\GitHub\G4-2020-1\21.10
 g++ -o ord ord.cpp
-ord
+./ord
 */
 using namespace std;
 #define	TOPEF 100000
