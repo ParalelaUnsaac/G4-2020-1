@@ -1,8 +1,8 @@
-# **<center>  G4 2020-I (ALGORITMOS PARALELOS Y DISTRIBUIDOS)  </center>**
+# G4-2020-1 (ALGORITMOS PARALELOS Y DISTRIBUIDOS)
 
 ---
 
-### Datos Academicos 📖
+### Datos Academicos 
 
 - **Institucion:** Universidad Nacional de San Antonio Abad del Cusco
 - **Facultad:** Facultad de ingenieria electrica, electronica, informatica y mecanica
@@ -20,7 +20,7 @@
 
 - **Huancara Ccolqque Alex Helder** - _GitHub Account_ - [AlexHelder-Tizer](https://github.com/AlexHelder-Tizer)
 - **Huillca Herrera Victor Pool** - _GitHub Account_ - [VictorPoolHuillcaHerrera](https://github.com/VictorPoolHuillcaHerrera)
-- **Inca Cruz Carlos Eduardo ** - _GitHub Account_ - [CarlosEdu322](https://github.com/CarlosEdu322)
+- **Inca Cruz Carlos Eduardo** - _GitHub Account_ - [CarlosEdu322](https://github.com/CarlosEdu322)
 - **Quispe Palomino Luiyi Antony** - _GitHub Account_ - [blablabla115](https://github.com/blablabla115)
 - **Sipaucar Condori Maritza** - _GitHub Account_ - [MaritzaSipaucar](https://github.com/MaritzaSipaucar)
 - **Tintaya Taco Yurema Lisbet** - _GitHub Account_ - [YuremaLTT](https://github.com/YuremaLTT)
@@ -38,34 +38,8 @@
 - Diagrama de flujo: [Visual Paradigm](https://www.visual-paradigm.com/)
 - Editor: [Visual Studio Code](https://code.visualstudio.com/)
 
-## Codificacion del programa 📄
+## Codificacion del programa 
 # G4-2020-1 (ALGORITMOS PARALELOS Y DISTRIBUIDOS)
-# Datos Academicos
- Institucion : Universidad Nacional de San Antonio Abad del Cusco
- 
- Facultad    : Facultad de ingenieria electrica , electronica, informatica y mecanica
- 
- Escuela profesional: Ingenieria Informatica y de Sistemas
-# Docente
-Quintanilla Portugal Roxana Lisette
-# Proyecto
-. Documentacion y entendimiento de un programa paralelizable
-
-. Utilizacion del lenguaje de programacion C, para luego ejecutarlo en el google colaboratory
-# Integrantes 
-. Huancara Ccolqque Alex Helder
-
-. Huillca Herrera Victor Pool
-
-. Inca Cruz Carlos Eduardo 
-
-. Quispe Palomino Luiyi Antony
-
-. Tintaya Taco Yurema Lisbet
-
-. Ugarte Castillo Briggitte Leonor
-
-# Lenguaje de programacion: C
 # Conpilador: MINGW GNU
 
 The GNU General Public License is a free, copyleft license for software and other kinds of works.
