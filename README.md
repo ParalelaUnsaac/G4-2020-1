@@ -11,3 +11,4 @@ The licenses for most software and other practical works are designed to take aw
 Fase 1: Completado ,nociones basicas de algoritmos de ordenamiento
 Fase 2: Cambiar entorno de desarrollo y mejores entornos de desarrollo
 
+gcc domentos
