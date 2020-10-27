@@ -39,7 +39,6 @@
 - Editor: [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Codificacion del programa 
-# G4-2020-1 (ALGORITMOS PARALELOS Y DISTRIBUIDOS)
 # Conpilador: MINGW GNU
 
 The GNU General Public License is a free, copyleft license for software and other kinds of works.
