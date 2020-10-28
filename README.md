@@ -51,5 +51,12 @@ printf("Tiempo de ejecucion %f seconds\\n", end - start);
 
 Luego de cada set de ordenamientos, es posible ver determinada posición del arreglo, para corroborar que el mismo fue correctamente realizado. Esto fue corroborado en todos los casos, mostrando el arreglo, por mas larga que sea la cadena mostrara todos los resultados de la cadena
 
+LINK COLAB
+
+https://colab.research.google.com/drive/1DV0hjxCWc2QcPhcraLhjVJ31uYIMuKsR?usp=sharing
+
+
+
+
 
 
