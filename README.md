@@ -33,9 +33,11 @@
 
 ### Construido con... 💻
 
+- Lenguaje: [C](http://www.mingw.org/)
 - Servicio Cloud: [Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb)
-- Diagrama de flujo: [Visual Paradigm](https://www.visual-paradigm.com/)
-- Editor: [Visual Studio CodeH](https://code.visualstudio.com/)
+- Diagrama de colaboración: [Calculadora de Matrices Umbrello UML Modeller](https://umbrello.kde.org/)
+- Diagrama de componentes:[Visual Paradigm Online Diagrams Express Edition](https://online.visual-paradigm.com/diagrams/solutions/free-visual-paradigm-online/)
+- Editor: [Visual Studio](https://visualstudio.microsoft.com/es/)
 
 ## Codificacion del programa 
 # Conpilador: MINGW GNU 
