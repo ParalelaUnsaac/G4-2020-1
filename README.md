@@ -1,4 +1,4 @@
-a# G4-2020-1 (ALGORITMOS PARALELOS Y DISTRIBUIDOS)
+### G4-2020-1 (ALGORITMOS PARALELOS Y DISTRIBUIDOS)
 ---
 
 ### Datos Academicos 📚📓
@@ -31,12 +31,12 @@ Algoritmos de ordenamiento en programacion paralela
 
 ### Construido con... 💻
 
-- Lenguaje: [C](http://www.mingw.org/)
+- Lenguaje: [C](cython)
 - Servicio Cloud: [Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb)
 - Diagrama de componentes:[Visual Paradigm Online Diagrams Express Edition](https://online.visual-paradigm.com/diagrams/solutions/free-visual-paradigm-online/)
-- Editor: [Visual Studio](https://visualstudio.microsoft.com/es/)
 
 ## Contenido del proyecto
+
 Este notebook contiene 4 secciones, en los cuales se expone detalladamente a los distintos algoritmos de ordenamiento; una vez seleccionada; el programa ejecutará primero un ordenamiento lineal, y luego en paralelo; indicando los tiempos de cada uno. Para llevar a cabo dicho objetivo, se utilizó la librería time, donde al comienzo de cada ordenamiento se declaró dos variables de tipo double la primera es start y la segunda end:
 ```
 start = omp_get_wtime();
