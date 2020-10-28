@@ -23,7 +23,7 @@
 - **Inca Cruz Carlos Eduardo** - _GitHub Account_ - [CarlosEdu322](https://github.com/CarlosEdu322)
 - **Quispe Palomino Luiyi Antony** - _GitHub Account_ - [blablabla115](https://github.com/blablabla115)
 - **Sipaucar Condori Maritza** - _GitHub Account_ - [MaritzaSipaucar](https://github.com/MaritzaSipaucar)
-- **Tintaya Taco Yurema Lisbet** - _GitHub Account_ - [YuremaLTT](https://github.com/YuremaLTT)
+- **Tintaya Taco Yurema Lisbeth** - _GitHub Account_ - [YuremaLTT](https://github.com/YuremaLTT)
 - **Ugarte Castillo Briggitte Leonor** - _GitHub Account_ - [briluc](https://github.com/briluc)
 
 ---
