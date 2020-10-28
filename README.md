@@ -48,4 +48,6 @@ Fase 1: Completado ,nociones basicas de algoritmos de ordenamiento
 
 Fase 2: Cambiar entorno de desarrollo y mejores entornos de desarrollo
 
+Si debemos considerar el rendimiento del programa como un todo, independientemente de cada algoritmo de ordenamiento por separado, la ejecución más rápida fue la primera (8 núcleos e igual cantidad de threads), logrando 78,27 segundos. Ninguna otra ejecución pudo bajar ese tiempo (aunque la segunda ejecución quedó apenas por debajo con 78,982 segundos), ya que el Burbujeo Paralelo comenzó a volverse más lento, afectando al resultado general. Por otro lado, quizás sorpresivamente, la ejecución más lenta fue la cuarta (8 núcleos y 50 threads), ya que el burbujeo paralelo tomó 76,542 segundos, totalizando 151,995 segundos. Esto permite concluir que al superar la misma cantidad de núcleos que de threads, el comportamiento del burbujeo paralelo comienza a tardar más tiempo, en vez de mejorar.
+
 
