@@ -26,7 +26,7 @@ a# G4-2020-1 ()
 - **Ugarte Castillo Briggitte Leonor** - _GitHub Account_ - [briluc](https://github.com/briluc)
 
 ---
-## Empezamos... 
+## Empezamos... 💡
 
 Algoritmos de ordenamiento en programacion paralela 
 
