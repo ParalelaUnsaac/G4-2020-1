@@ -29,7 +29,7 @@
 ---
 ## Empezamos... 
 
-.ggg
+Algoritmos de ordenamiento en OPENMP
 
 ### Construido con... 💻
 
