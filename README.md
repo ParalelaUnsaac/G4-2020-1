@@ -36,18 +36,20 @@ Algoritmos de ordenamiento en programacion paralela
 - Diagrama de componentes:[Visual Paradigm Online Diagrams Express Edition](https://online.visual-paradigm.com/diagrams/solutions/free-visual-paradigm-online/)
 - Editor: [Visual Studio](https://visualstudio.microsoft.com/es/)
 
-## Codificacion del programa 
-# Conpilador: MINGW GNU 
+## Contenido del proyecto
+Este notebook contiene 4 secciones, en los cuales se expone detalladamente a los distintos algoritmos de ordenamiento; una vez seleccionada; el programa ejecutará primero un ordenamiento lineal, y luego en paralelo; indicando los tiempos de cada uno. Para llevar a cabo dicho objetivo, se utilizó la librería time, donde al comienzo de cada ordenamiento se declaró dos variables de tipo double la primera es start y la segunda end:
+```
+start = omp_get_wtime();
+/*Codigo secuencial o paralelo
+end = omp_get_wtime();
+```
 
-The GNU General Public License is a free, copyleft license for software and other kinds of works.
+y al finalizar dicho ordenamiento, se obtuvo la diferencia, para luego mostrarla por pantalla tanto en ticks del reloj como en segundos, la funcion printf propia del lenguaje de programacion c:
+```
+printf("Tiempo de ejecucion %f seconds\\n", end - start);
+```
 
-The licenses for most software and other practical works are designed to take away your freedom to share and change the works. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change all versions of a program--to make sure it remains free software for all its users. We, the Free Software Foundation, use the GNU General Public License for most of our software; it applies also to any other work released this way by its authors. You can apply it to your programs, too.
+Luego de cada set de ordenamientos, es posible ver determinada posición del arreglo, para corroborar que el mismo fue correctamente realizado. Esto fue corroborado en todos los casos, mostrando el arreglo, por mas larga que sea la cadena mostrara todos los resultados de la cadena
 
-
-Fase 1: Completado ,nociones basicas de algoritmos de ordenamiento
-
-Fase 2: Cambiar entorno de desarrollo y mejores entornos de desarrollo
-
-Si debemos considerar el rendimiento del programa como un todo, independientemente de cada algoritmo de ordenamiento por separado, la ejecución más rápida fue la primera (8 núcleos e igual cantidad de threads), logrando 78,27 segundos. Ninguna otra ejecución pudo bajar ese tiempo (aunque la segunda ejecución quedó apenas por debajo con 78,982 segundos), ya que el Burbujeo Paralelo comenzó a volverse más lento, afectando al resultado general. Por otro lado, quizás sorpresivamente, la ejecución más lenta fue la cuarta (8 núcleos y 50 threads), ya que el burbujeo paralelo tomó 76,542 segundos, totalizando 151,995 segundos. Esto permite concluir que al superar la misma cantidad de núcleos que de threads, el comportamiento del burbujeo paralelo comienza a tardar más tiempo, en vez de mejorar.
 
 
