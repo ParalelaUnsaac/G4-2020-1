@@ -25,7 +25,7 @@
 - **Tintaya Taco Yurema Lisbeth** - _GitHub Account_ - [YuremaLTT](https://github.com/YuremaLTT)
 - **Ugarte Castillo Briggitte Leonor** - _GitHub Account_ - [briluc](https://github.com/briluc)
 ---
-## Empezamos... 
+## Empezamos... 💡
 
 Algoritmos de ordenamiento en programacion paralela 
 
@@ -35,7 +35,7 @@ Algoritmos de ordenamiento en programacion paralela
 - Servicio Cloud: [Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb)
 - Diagrama de componentes:[Visual Paradigm Online Diagrams Express Edition](https://online.visual-paradigm.com/diagrams/solutions/free-visual-paradigm-online/)
 
-## Contenido del proyecto
+## Contenido del proyecto📃
 
 Este notebook contiene 4 secciones, en los cuales se expone detalladamente a los distintos algoritmos de ordenamiento; una vez seleccionada; el programa ejecutará primero un ordenamiento lineal, y luego en paralelo; indicando los tiempos de cada uno. Para llevar a cabo dicho objetivo, se utilizó la librería time, donde al comienzo de cada ordenamiento se declaró dos variables de tipo double la primera es start y la segunda end:
 ```
