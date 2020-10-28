@@ -53,7 +53,7 @@ Luego de cada set de ordenamientos, es posible ver determinada posición del arr
 
 LINK COLAB
 
-https://colab.research.google.com/drive/1DV0hjxCWc2QcPhcraLhjVJ31uYIMuKsR?usp=sharing
+https://colab.research.google.com/gist/CarlosEdu322/d2b231c16f63ca21e0727ee982f32487/ordenamiento-openmp.ipynb#scrollTo=PwRIg-ZE2dwl
 
 
 
