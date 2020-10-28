@@ -1,12 +1,11 @@
-a# G4-2020-1 (ALGORITMOS PARALELOS Y DISTRIBUIDOS)
-
+a# G4-2020-1 ()
 ---
 
 ### Datos Academicos 📚📓
 
-- **Institucion:** Universidad Nacional de San Antonio Abad del Cusco
-- **Facultad:** Facultad de ingenieria electrica, electronica, informatica y mecanica
-- **Escuela Profesional:** Ingenieria Informatica y de Sistemas
+- **Institucion:**
+- **Facultad:** 
+- **Escuela Profesional:** 
 
 #### Docente:👩‍🏫
 - **Quintanilla Portugal Roxana Lisette** - _Docente_ - [Concytec](http://directorio.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=40930).
