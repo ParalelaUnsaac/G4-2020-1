@@ -1,4 +1,4 @@
-# G4-2020-1 (ALGORITMOS PARALELOS Y DISTRIBUIDOS)
+a# G4-2020-1 (ALGORITMOS PARALELOS Y DISTRIBUIDOS)
 
 ---
 
@@ -29,7 +29,7 @@
 ---
 ## Empezamos... 
 
-Algoritmos de ordenamiento en OPENMP
+Algoritmos de ordenamiento en programacion paralela 
 
 ### Construido con... 💻
 
