@@ -18,7 +18,7 @@ a# G4-2020-1 (ALGORITMOS PARALELOS Y DISTRIBUIDOS)
 
 #### Integrantes : 📌
 
-- **Huancara Ccolqque Alex Helder** - _GitHub Account_ - [AlexHelder-Tizer](https://github.com/AlexHelder-Tizer)
+- **Huancara Ccolqque Alex Helder** - _GitHub Account_ - [AlexHelder-Tyzer](https://github.com/AlexHelder-Tyzer)
 - **Huillca Herrera Victor Pool** - _GitHub Account_ - [VictorPoolHuillcaHerrera](https://github.com/VictorPoolHuillcaHerrera)
 - **Inca Cruz Carlos Eduardo** - _GitHub Account_ - [CarlosEdu322](https://github.com/CarlosEdu322)
 - **Quispe Palomino Luiyi Antony** - _GitHub Account_ - [blablabla115](https://github.com/blablabla115)
