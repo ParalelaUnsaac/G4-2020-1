@@ -36,10 +36,6 @@ Algoritmos de ordenamiento en programacion paralela
 - Diagrama de componentes:[Visual Paradigm Online Diagrams Express Edition](https://online.visual-paradigm.com/diagrams/solutions/free-visual-paradigm-online/)
 - Editor: [Visual Studio](https://visualstudio.microsoft.com/es/)
 
-## Diagrama de componentes 
-
-
-
 ## Codificacion del programa 
 # Conpilador: MINGW GNU 
 
