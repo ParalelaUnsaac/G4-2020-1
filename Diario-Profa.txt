@@ -1,3 +1,23 @@
-07Oct- creacion de proyeto en GitHub
-14 Oct - 3/5. Si tienen problema, no hay documentacion. CUDApy
+07Oct - creacion de proyeto en GitHub
+14 Oct : 3/5. Si tienen problema, no hay documentacion. CUDApy
 21 Oct : Github colaboran. Readme falta mejorar. mingw c compiler. OPENmp. Explicaron problema, tienen codigo que mide eficiencia de la paralelización. No tienen más documentación. Ejm, el uso de las clausulas de ambito para el problema.
+
+28 Oct:
+explicaron la elección de openMP
+tiempo de ejecucion
+tiene modelo de componentes
+tiene referencias en su documentación
+clausulas shared, default, reduction.
+codigo comentado 
+documento organizado por tipo de ordenaciones
+el shell es mejor en secuencial
+investigaron los limites en hilos del Colab
+El insertion debe ser paralelizado
+justificar las clausulas de ambito y constructos omp utilizados. 
+
+29Oct. 
+Como es extenso su colab con todas las ordenaciones, al final, deberian hacer un resumen de cada algoritmo tratado, o mejor una tablita donde digan valores hasta donde es conveniente ser serial y cuando deberia ser paralelizado.
+
+Interesante dejar una papelera de reciclaje transparente...
+
+
